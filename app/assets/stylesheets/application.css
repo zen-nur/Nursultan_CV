@@ -1,0 +1,119 @@
+html {
+  font-family: Roboto, sans-serif;
+  --primary-color: #2f80ed;
+  --secondary-color: #333333;
+  --bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+* {
+  color: var(--secondary-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  
+}
+
+section {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 90px;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.experience__name {
+  font-weight: bold;
+}
+.languages{
+	padding-left: 21%;
+}
+.portfolio{
+  width: 100%;
+  margin-bottom: 30px;
+  height: 400px;
+  margin-left: 93px;
+}
+.Courses{
+  margin-bottom: 30px;
+  margin-left: 210px;
+  width: 70%;
+  height: 220px;
+
+}
+.Rails{
+  width: 100%;
+}
+.verstka{
+  margin-bottom: 5px;
+  margin-right: 300px;
+  width: 98%
+}
+.android{
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 370px
+}
+.teacher{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 76%;
+  margin-left: 220px;
+
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}
+
